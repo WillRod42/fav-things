@@ -17,6 +17,7 @@ $(document).ready(function() {
     list.append($("<li>" + newArray2[1] + "</li>"));
     list.append($("<li>" + newArray2[2] + "</li>"));
       
+    $("#fav-list").text("");
     $("#fav-list").append(list);
 
   });
